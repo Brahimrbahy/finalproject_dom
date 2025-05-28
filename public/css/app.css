@@ -303,10 +303,14 @@ ul>li>span::before{
 
     height:290px;
     width: 260px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
     padding: 40px 30px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+
 }
 
 
@@ -314,31 +318,40 @@ ul>li>span::before{
 .why3 > i,
 .why4 > i {
     font-size: 32px;
-    width: 72px;
-    height: 72px;
-    background-color: #ce1212;
+    width: 60px;
+    height: 60px;
+    background-color: #fcf3f3;
+    color: #ce1212;
     text-align: center;
+    border-radius: 50%;
+    padding: 10px;
+    padding-top: 25px;
 }
 
 
 .why2 > h4,
 .why3 > h4,
 .why4 > h4 {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 500;
-    margin: 0 0 30px 0;
+    padding: 10px 0 30px 0;
+    text-align: center;
 }
 
 
 .why2 > p,
 .why3 > p,
 .why4 > p {
-    font-size: 15px;
+    font-size: 20px;
+    width: 100%;
+    height: 160px;
+    color: rgb(130, 128, 128) ;
+    text-align: center;
 }
 
 
 .whyH3{
-    width: 350px;
+    width: 100%;
     height: 30px;
     padding-bottom: 30px;
     font-size: 30px;
@@ -348,9 +361,18 @@ ul>li>span::before{
 
 
 .pwhy{
-    width: 350px;
-    height: 140px;
+    width: 100%;
     font-family: Roboto, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-weight: 500;
     font-size: 15px;
+    padding-bottom: 50px;
+}
+
+.moreAndMore{
+    color: #fff;
+    background-color: #d53535;
+    padding:  20px 30px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 50px;
 }
