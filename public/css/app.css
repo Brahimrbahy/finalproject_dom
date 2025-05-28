@@ -1,0 +1,356 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+a{
+    text-decoration: none;
+}
+
+
+nav{
+    width: 100%;
+    background-color: white;
+    padding: 25px 0;
+    z-index: 900;
+    position: fixed;
+    font-family: Roboto, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.navDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+}
+
+
+
+.firstH1{
+    font-size: 35PX;
+    font-weight: 650;
+}
+
+
+.navLink{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.navLink>a{
+    color: #7f7f90;
+    font-size: 20px;
+    padding: 15px;
+    font-weight: 500;
+}
+.navButton>a{
+    width: 130px;
+    height: 35px;
+    color: #ffffff;
+    padding-left: 60px;
+    font-size: 15px;
+    padding: 8px 20px;
+    border-radius: 50px;
+    background-color: rgb(206, 18, 18);
+    font-weight: 400;
+
+}
+
+.firstSection{
+    background-color: #f2f2f2;
+    width: 100%;
+    min-height: 60vh;
+    padding: 120px 0 60px;
+}
+
+
+.secDiv{
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 200px;
+    justify-content: center;
+    padd
+
+}
+
+.imgHero > img{
+    width: 600px;
+    height: 600px;
+}
+
+.secH1{
+    font-size: 64px;
+    font-weight: 700;
+    margin: 0px;
+    width: 600px;
+    height: 150px;
+    padding-bottom: 20px;
+}
+.btns{
+    display: flex;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding: 20px;
+}
+
+.fristP{
+    color: #7f7f90;
+    font-size: 25px;
+    font-weight: 400;
+    padding: 5px 0px 30px;
+    width: 565px;
+    height: 60px;
+}
+
+
+
+.secBtn1{
+    border-radius: 50px;
+    background-color: rgb(206, 18, 18);
+    padding: 12px 30px 14px;
+    box-shadow: 0 8px 28px rgba(0, 0, 0, 0.1);
+    color: #ffffff;
+    font-family: Roboto, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+
+
+.secLink>i{
+    color: rgb(206, 18, 18);
+    font-size: 32px;
+}
+
+
+.secLink>span{
+    font-size: 20px;
+    transition: 0.5s;
+    font-weight: 500;
+
+}
+
+.secLink{
+    padding: 12px 30px 14px;
+    color: #212529;
+    padding-left: 25px;
+    align-items: center;
+
+
+}
+    
+.aboutDiv1>img{
+    width:100%;
+    height: auto;
+    padding-bottom: 30px;
+
+}
+
+.aboutDiv2{
+    width: 700px;
+    padding-left: 3rem;
+}
+
+.aboutBigDiv{
+    display: flex;
+    gap: 5vw;
+    padding:  10px 150px;
+}
+
+ul>li{
+    list-style-type: none;
+    font-size: 20px;
+    padding: 0 0 10px 30px;
+    padding-left: 0;
+    padding-bottom: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+ul>li>i{
+    font-size: 25px;
+    color: #ce1212;
+}
+
+ul>li>span::before{
+
+  content: "\f058"; 
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900; 
+  color: #ce1212;
+  font-size: 25px;
+
+
+}
+
+
+
+
+.aboutH2{
+    color: #90949b;
+    font-family: Roboto, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.aboutP1{
+    letter-spacing: 1px;
+    font-weight: 400;
+    text-align: center; 
+    font-size: 50px;
+}
+
+.about{
+    padding-top: 50px;
+}
+
+
+.aboutForabout{
+    width: 100%;
+    height: 160px;
+} 
+
+
+
+.PhoneDiv{
+    border: 4px solid #636669;
+    width: 94%;
+    text-align: center;
+    padding: 25px;
+}
+
+.PhoneDiv> h3{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.PhoneDiv>p{
+    padding-top: 10px;
+    color: #ce1212;
+    font-weight: 500;
+    font-size: 32px;
+    font-weight: bold;
+
+}
+
+
+.pitaclic{
+    font-size: 20px;
+    color: #909498;
+    background-color: #fff;
+    font-style: italic;
+    padding-bottom: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.lastPabout{
+    width: 100%;
+    height: 90px;
+    font-size: 20px;
+    padding-bottom: 50px;
+    font-family: Roboto, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+}
+
+.posimg{
+    position: absolute;
+}
+.posi{
+
+    position: relative;
+    color: #ce1212;
+    font-size: 100px;
+    top: 160px;
+    left: 225px;
+    background-color: #ffffff;
+    border-radius: 100%;
+
+}
+.threeInOne{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 60px 0;
+}
+
+
+.why{
+    background-color: #f2f2f2;
+}
+
+
+.why1{
+    width: 420px;
+    height: 290px;
+
+    padding: 40px 30px;
+    background-color: #ce1212;
+    color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+
+.why2,
+.why3,
+.why4{
+
+    height:290px;
+    width: 260px;
+    text-align: center;
+    padding: 40px 30px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: #ffffff;
+}
+
+
+.why2 > i,
+.why3 > i,
+.why4 > i {
+    font-size: 32px;
+    width: 72px;
+    height: 72px;
+    background-color: #ce1212;
+    text-align: center;
+}
+
+
+.why2 > h4,
+.why3 > h4,
+.why4 > h4 {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0 0 30px 0;
+}
+
+
+.why2 > p,
+.why3 > p,
+.why4 > p {
+    font-size: 15px;
+}
+
+
+.whyH3{
+    width: 350px;
+    height: 30px;
+    padding-bottom: 30px;
+    font-size: 30px;
+    font-family: Roboto, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+}
+
+
+.pwhy{
+    width: 350px;
+    height: 140px;
+    font-family: Roboto, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 500;
+    font-size: 15px;
+}
