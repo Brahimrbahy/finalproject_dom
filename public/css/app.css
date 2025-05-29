@@ -121,24 +121,34 @@ nav{
 
 
 
-.secLink>i{
-    color: rgb(206, 18, 18);
-    font-size: 32px;
-}
 
 
-.secLink>span{
+
+.secLink{
     font-size: 20px;
     transition: 0.5s;
     font-weight: 500;
 
 }
+.watch>a{
+    font-size: 25px;
+}
+
+.watch{
+    display: flex;
+    align-items: center;
+}
+.watch>i{
+    color: rgb(206, 18, 18);
+    font-size: 32px;
+}
 
 .secLink{
-    padding: 12px 30px 14px;
+    padding:14px 10px  14px;
     color: #212529;
-    padding-left: 25px;
+    /* padding-left: 25px; */
     align-items: center;
+
 
 
 }
@@ -592,11 +602,11 @@ ul>li>span::before{
 
 
 
-input{
+/* input{
     width: 210px;
     height: 42px;
     padding: 10px 15px;
-}
+} */
 
 
 .textarea{
@@ -683,14 +693,92 @@ footer{
 
 
 
+
+
 .aboutSection-thirdContent{
     background: url(../images/stats-bg.jpg);
     display: flex;
-    justify-content: space-between;
+    gap: 200px;
     text-align: center;
+    justify-content: center;
     position: relative;
     background-position: center;
     background-size: cover;
     
 }
     
+
+
+
+.backdrop{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.24);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    display: none;
+}
+
+
+.modal{
+    width: 35%;
+    height: 45%   ;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    border-radius: 15px;
+    margin-top: 5vh;
+    margin-left: 2vw;
+    padding-top: 2vh;
+    
+}
+/* .modal-bod>input{
+            width: 100%;
+}
+    h1
+        font-size: 30px
+        padding-left: 1vw
+
+.menu-icon,
+.close-icon
+    font-size: 20px
+    display: none
+    cursor: pointer */
+
+.aboutSection-thirdContent::before{
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: rgba(0,0 ,0 ,0.5);
+}
+
+
+.aboutSection-thirdContent>div{
+        color: #fff;
+        z-index: 1000;
+        padding-top: 130px;
+        padding-bottom: 130px;
+        padding-left: 100px;
+        padding-right: 100px;
+}
+
+
+.thirdContent-p1{
+            font-weight: bold;
+            font-size: 48px;
+            padding: 0;
+}
+.thirdContent-p2{
+            padding: 0;
+            color: #ffffff9f;
+            font-weight: bold;
+}

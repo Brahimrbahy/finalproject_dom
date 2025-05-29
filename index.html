@@ -22,20 +22,27 @@
                 <a href="">Contac</a>
             </div>
             <div class="navButton">
-                <a href="" id="loginBtn">Sing In</a>
+                <a href="" modal-data="firstModal" class="btn-modal">Sing In</a>
+            </div>
+            <div id="firstModal" class="backdrop">
+                <div class="modal">
+                    <div class="modal-title">
+                        <h1>Login</h1>
+                    </div>
+                    <div class="modal-body">
+                        <label for="">Email</label><br>
+                        <input type="email" name="" id=""><br>
+
+                        <label for="">Password</label><br>
+                        <input type="password" name="" id="">
+                    </div>
+                    <div class="modal-footer">
+                        <button class="close-modal">Close</button>
+                    </div>
+                </div>
             </div>
         </div>
         
-        <div style="display:none ;" id="idmod">
-            <form action="" id="idmod">
-                <label for="">email</label><br>
-                <input type="email" name="" id=""><br>
-                <label for="">pass</label><br>
-                <input type="text" name="" id="">
-                <br>
-                <button>Login</button>
-            </form>
-        </div>
         </div>
     </nav>
     <section class="firstSection">
@@ -45,7 +52,10 @@
             <p class="fristP">We are team of talented designers making websites with Bootstrap</p>
             <div class="btns">
                 <a href="" class="secBtn1">Booka a Table</a>
-                <a href="" class="secLink"><i class="fa-regular fa-circle-play"></i> <span>Watch Video</span></a>
+                <div class="watch">
+                    <i class="fa-regular fa-circle-play"></i>
+                    <a href="" class="secLink"> Watch Video</a>
+                </div>
             </div>
 
         </div>
