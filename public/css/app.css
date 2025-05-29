@@ -643,4 +643,54 @@ footer{
     display: flex;
     gap: 1vw;
 }
+.footerDiv1>i{
+    color: #ce1212;
+    font-size: 25px;
+}
 
+
+.footerDiv1-p1{
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+    
+.footerDiv1-p2{
+    width: 180px;
+    font-size: 14px;
+    
+}
+
+.isis>a>i{
+    border-radius: 50%;
+    border: 0.5px solid #ffffff72;
+    padding: 10px;
+    color: #ffffff72;
+    transition: 0.3s;
+}
+
+
+.footerPartTwo{
+    color: #fff;
+    text-align: center;
+    padding-top: 5vh;
+}
+   
+
+.bot{
+    color: #ce1212
+}
+
+
+
+
+.aboutSection-thirdContent{
+    background: url(../images/stats-bg.jpg);
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    
+}
+    
