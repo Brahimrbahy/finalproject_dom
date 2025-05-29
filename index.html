@@ -30,13 +30,14 @@
                         <h1>Login</h1>
                     </div>
                     <div class="modal-body">
-                        <label for="">Email</label><br>
-                        <input type="email" name="" id=""><br>
+                        <label class="lbel1" for="">Email</label><br>
+                        <input class="in-mode" type="email" name="" id=""><br>
 
-                        <label for="">Password</label><br>
-                        <input type="password" name="" id="">
+                        <label class="lbel1" for="">Password</label><br>
+                        <input class="in-mode" type="password" name="" id="">
                     </div>
                     <div class="modal-footer">
+                        <button class="login-modal">Login</button>
                         <button class="close-modal">Close</button>
                     </div>
                 </div>
@@ -50,13 +51,7 @@
             <div >
             <h1 class="secH1">Enjoy Your Healthy Delicious Food</h1>
             <p class="fristP">We are team of talented designers making websites with Bootstrap</p>
-            <!-- <div class="btns">
-                <a href="" class="secBtn1">Booka a Table</a>
-                <div class="watch">
-                    <i class="fa-regular fa-circle-play"></i>
-                    <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="secLink"> Watch Video</a>
-                </div>
-            </div> -->
+
 <div class="btns">
     <a href="#" class="secBtn1">Book a Table</a>
     <div class="watch" id="watchVideoBtn">
@@ -64,7 +59,6 @@
         <a href="#" class="secLink"> Watch Video</a>
     </div>
 </div>
-
 
 
 <div id="videoModal" class="modal2">
@@ -103,7 +97,7 @@
         </ul>
         <p class="lastPabout">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
         <img class="posimg" src="./public/images/about-2.jpg" alt="" width="550px">
-        <i class="fa-solid fa-circle-play posi"></i>
+        <i class="fa-solid fa-circle-play posi" id="playIcon"></i>
     </div>
     </div>
     </section>
@@ -154,7 +148,66 @@
             </div>
         </div>
     </section> 
+    <section>
+                <div class="menuSection-secondPart">
+            <p class="menuSection-secondPart-p1">TESTIMONIALS</p>
+            <p class="menuSection-secondPart-p2">WHAT ARE THEY <span>SAYING ABOUT US</span></p>
+            <div id="carousel1" class="carousel-container">
+                <div class="carousel">
+                    <div class="slide">
+                        <div class="slide-d1">
+                            <p class="slide-p1">Lorem, ipsum dolor sit amet consectetuer iusto voluptates, in quas non. Doloremque, ducimus. Quibusdam commodi placeat, earum fuga sequi, nulla vitae animi ut, quis doloremque sunt culpa ullam harum corrupti ab.</p>
+                            <p class="slide-p2">saul good man</p>
+                            <p class="slide-p3">ceo a founder</p>
+                            <p><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i></p>                        </div>
+                        <div>
+                            <img src="./public/images/testimonials/testimonials-1.jpg" alt="" width="150px">
+                        </div>
 
+                    </div>
+
+                    <div class="slide">
+                        <div  class="slide-d1">
+                            <p class="slide-p1">Lorem, ipsum dolor sit amet consectetuer iusto voluptates, in quas non. Doloremque, ducimus. Quibusdam commodi placeat, earum fuga sequi, nulla vitae animi ut, quis doloremque sunt culpa ullam harum corrupti ab.</p>
+                            <p class="slide-p2">sara wilson</p>
+                            <p class="slide-p3">designer</p>
+                            <p><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i></p>                        </div>
+                        <div>
+                            <img src="./public/images/testimonials/testimonials-2.jpg" alt="" width="150px">
+                        </div>
+                    </div>
+
+                    <div class="slide">
+                        <div class="slide-d1">
+                            <p class="slide-p1">Lorem, ipsum dolor sit amet consectetuer iusto voluptates, in quas non. Doloremque, ducimus. Quibusdam commodi placeat, earum fuga sequi, nulla vitae animi ut, quis doloremque sunt culpa ullam harum corrupti ab.</p>
+                            <p class="slide-p2">jena karles</p>
+                            <p class="slide-p3">store owner</p>
+                            <p><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i></p>                        </div>
+                        <div>
+                            <img src="./public/images/testimonials/testimonials-3.jpg" alt="" width="150px">
+                        </div>
+
+                    </div>
+
+                    <div class="slide">
+                        <div class="slide-d1">
+                            <p class="slide-p1">Lorem, ipsum dolor sit amet consectetuer iusto voluptates, in quas non. Doloremque, ducimus. Quibusdam commodi placeat, earum fuga sequi, nulla vitae animi ut, quis doloremque sunt culpa ullam harum corrupti ab.</p>
+                            <p class="slide-p2">john larson</p>
+                            <p class="slide-p3">entreprneur</p>
+                            <p><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i></p>
+                        </div>
+                        <div>
+                            <img src="./public/images/testimonials/testimonials-4.jpg" alt="" width="150px">
+                        </div>
+
+                    </div>
+
+                </div>
+                <button carouselBtn="carousel1" class="previous"><i class="bi bi-chevron-left"></i></button>
+                <button carouselBtn="carousel1" class="next"><i class="bi bi-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
     <section>
         <div class="mn1">
             <h2>our menu</h2>
