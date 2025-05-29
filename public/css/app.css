@@ -360,6 +360,7 @@ ul>li>span::before{
 }
 
 
+
 .pwhy{
     width: 100%;
     font-family: Roboto, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -376,3 +377,270 @@ ul>li>span::before{
     font-size: 25px;
     border-radius: 50px;
 }
+.stts{
+    width: 100%;
+    height: 490px;
+}
+
+.bg-img{
+    width: 100%;
+    height: 496px;
+    background-position:center;
+    background: repeat;
+    z-index: 1;
+
+}
+
+.statistick{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 150px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 10px;
+}
+.info> span{
+    font-size: 48px;
+    font-weight: 700;
+
+}
+
+.mn1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.mn1>h2{
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.mn1>p{
+    font-size: 40px;
+    padding: 20px;
+}
+
+
+.menuChose{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.menuChose>p{
+    font-size: 32px;
+    font-weight: 400;
+
+}
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.whatYouChose{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.whatYouChose>p{
+    font-size: 14px;
+
+}
+
+
+.whatYouChose>h3{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+
+.menu1by1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.menu1by1>img{
+    width: 380px;
+    height: 380px;
+    padding: 0 60px;
+}
+
+.svg{
+    width: 100%;
+
+    position: absolute;
+    bottom: 72PX;
+    padding-bottom: 20px;
+
+    
+}
+
+.mwantiti{
+    width: 100%;
+    border-radius: 10px;
+    height: 350px;
+
+
+} 
+
+.chefCard{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+}
+
+
+.chef{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    position:relative;
+    border-radius: 10px;
+
+}
+
+
+.chef>h4{
+    font-weight: 700;
+    padding-top: 5px;
+    font-size: 20px;
+}
+
+.chefinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+.chefinfo>h4{
+    font-weight: 700;
+    padding-top: 10px;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+
+
+
+.booking{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.bookiInBook{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50vw;
+    background-color: #7f7f90;
+    height: 500px;
+}
+
+
+.inpt{
+    width: 235px;
+    height: 50px;
+    padding: 10px;
+}
+
+
+.inpts{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    padding-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+input{
+    width: 210px;
+    height: 42px;
+    padding: 10px 15px;
+}
+
+
+.textarea{
+    padding-top: 10px;
+    width: 750px;
+    height: 100px;
+}
+
+
+.contt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+
+footer{
+    background-color: #1f1f24;
+    padding-top: 5vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-bottom: 5vh;
+}
+
+
+
+
+.footerPartOne{
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+    padding-bottom: 5vh;
+    border-bottom: 0.5px solid #606067;
+
+    
+}
+
+
+.footerDiv1{
+    display: flex;
+    gap: 1vw;
+}
+
