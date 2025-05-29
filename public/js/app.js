@@ -33,4 +33,24 @@ myModals.forEach(modal => {
 });
 
 
+let btn = document.getElementById("watchVideoBtn");
+let modal = document.getElementById("videoModal");
+let closeBtn = document.querySelector(".close");
+let iframe = document.getElementById("videoFrame");
 
+btn.onclick = () => {
+  modal.style.display = "flex";
+  iframe.src = "https://www.youtube.com/embed/Y7f98aduVJ8?autoplay=1";
+};
+
+closeBtn.onclick = () => {
+  modal.style.display = "none";
+  iframe.src = "";
+};
+
+window.onclick = (e) => {
+  if (e.target == modal) {
+    modal.style.display = "none";
+    iframe.src = "";
+  }
+};
